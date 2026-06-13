@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS6 Bai tap 4</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .phandau {
+            text-align: center;
+            padding: 50px;
+            background-color: green;
+            color: white;
+            height: 100px;
+        }
+        .phanthan {
+            display: flex;
+            min-height: 100vh;
+            margin: 5px;
+            gap: 30px;
+            
+        }
+        .bentrai {
+            flex: 1;
+            width: 250px;
+            background-color: lightgray;
+            border: 1px solid gray;
+            padding: 20px;
+        }
+        .bentrai h3 {
+            margin-top: 0;
+        }
+        .bentrai ul {
+            padding-left: 20px;
+        }
+        .benphai {
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-content: space-between;
+            align-items: stretch; 
+            padding: 20px 40px;
+            box-sizing: border-box;
+        }
+        .baiviet1 {
+            flex: 1.5;
+        }
+        .baiviet2 {
+            flex: 1.5;
+        }
+        .phanduoi {
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 50px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header class="phandau">
+    <h2>My Blog</h2>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categorious</a>
+        <a href="#">About</a>
+    </nav>
+    </header>
+    <main class="phanthan">
+        <div class="bentrai">
+            <h3>Chuyên mục</h3>
+            <ul>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+                <li><a href="#">HTML</a></li>
+            </ul>
+        </div>
+        <div class="benphai">
+            <div class="baiviet1">
+                <h3>Bài viết 1</h3>
+                <img src="https://dianxnao.com/wp-content/uploads/2018/12/JavaScript_logo.png" alt="JS1">
+                <p>Đây là nội dung tóm tắt của bài viết 1.</p>
+            </div>
+            <div class="baiviet2">
+                <h3>Bài viết 2</h3>
+                <img src="https://www.w2solution.co.jp/wp-content/uploads/2023/01/javascript-960x504-1-e1673941784847.png" alt="JS2">
+                <p>Đây là nội dung tóm tắt của bài viết 2.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="phanduoi">
+        <p>Liên hệ: email@example.com</p>
+    </footer>
+</body>
+</html>
