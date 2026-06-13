@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>SS6 bai tap 1</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #0781e6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            text-decoration: none;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+            position: relative;
+        }
+        
+        .intro-container {
+            display: flex;
+            align-items: center; 
+            gap: 20px;  
+            padding: 20px;
+            max-width: 650px; 
+            position: absolute; top: 30%; left: 30%;
+        }
+         .avatar {
+            width: 120px;    
+            height: 120px;  
+            border-radius: 50%; 
+            border: 3px solid #007bff; 
+            object-fit: cover;
+         }
+        footer {
+            background-color: #989898;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+         <h1>Giới Thiệu Bản Thân</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-container">
+        <img src="https://static.vecteezy.com/system/resources/previews/073/077/695/non_2x/flat-illustration-of-businessman-avatar-with-formal-suit-ideal-for-profile-cv-or-office-design-use-vector.jpg" alt="hinhanh" class="avatar"/>
+        <p>Xin chào! Tôi là <strong>TSUBASA</strong> một lập trình viên đam mê học hỏi và sáng tạo.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Quyền. Kết nối với tôi trên <a href="#">Facebook</a> hoặc <a href="#">Linkedln</a></p>
+    </footer>
+
+</body>
+</html>
