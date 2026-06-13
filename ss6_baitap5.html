@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SS6 Bai tap 5</title>
+    <style>
+        html,body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .phandau {
+            display: flex;
+            justify-content: space-between;
+            background-color: green;
+            color: white;
+            padding: 25px;
+            height: 50px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex; 
+        }
+        .phanthan {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+            justify-content: space-between;
+        }
+        .thantren {
+            flex: 1;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightgray;
+            text-align: center;
+        }
+        .thantren button {
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .thanduoi {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 40px;
+            gap:40px;
+        }
+        .thanduoi div {
+            flex: 1;
+            background-color: gray;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            height: 50px;
+
+        }
+    </style>
+</head>
+<body>
+    <header class="phandau">
+        <p>MyLogo</p>
+        <nav>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Services</a></p>
+            <p><a href="#">Contact</a></p>
+        </nav>
+    </header>
+    <main class="phanthan">
+        <div class="thantren">
+            <h1>Welcome to My Website</h1>
+            <p>We provide the best solutions for your business.</p>
+            <button>Get Started</button>
+        </div>
+        <div class="thanduoi">
+            <div>Feauture 1</div>
+            <div>Feauture 2</div>
+            <div>Feauture 3</div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us: email@example.com</p>
+    </footer>
+</body>
+</html>
