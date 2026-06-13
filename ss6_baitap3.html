@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>SS6 bai tap 1</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #212529;
+            color: white;
+            padding: 10px 40px;
+            height: 200px;
+        }
+        
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        main {
+            flex: 1;
+            background-color: #f1f1f1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .intro-container {
+            display: flex;
+            align-items: center; 
+            gap: 25px;  
+            padding: 40px 60px;
+            height: 300px;
+        }
+
+        .avatar {
+            width: 120px;    
+            height: 120px;  
+            border-radius: 50%; 
+            border: 3px solid #007bff; 
+            object-fit: cover;
+        }
+
+        .intro-container p {
+            font-size: 18px;
+        }
+
+        .duancuatoi {
+            background-color: white;
+            padding: 30px 60px;
+            flex: 1;
+        }
+
+        .duancuatoi h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 22px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .duan {
+            flex: 1;
+            background-color: #2b3035;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            border: none;
+        }
+
+        footer {
+            background-color: #e9ecef;
+            color: #333;
+            padding: 15px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portfolio của TSUBASA</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="intro-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/073/077/695/non_2x/flat-illustration-of-businessman-avatar-with-formal-suit-ideal-for-profile-cv-or-office-design-use-vector.jpg" alt="hinhanh" class="avatar"/>
+            <p><b>Xin chào! Tôi là TSUBASA, một nhà phát triển web sáng tạo.</b></p>
+        </div>
+        
+        <div class="duancuatoi">
+            <h2>Dự án của tôi</h2>
+            <section>
+                <div class="duan">Dự án 1</div>
+                <div class="duan">Dự án 2</div>
+                <div class="duan">Dự án 3</div>
+                <div class="duan">Dự án 4</div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Kết nối với tôi trên <b>LinkedIn</b> | <b>GitHub</b></p>
+    </footer>
+
+</body>
+</html>
